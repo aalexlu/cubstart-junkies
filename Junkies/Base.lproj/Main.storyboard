@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="e5w-uF-QwD">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="FPe-gs-z77">
+            <objects>
+                <viewController id="8RE-9m-9VV" customClass="ViewController" customModule="Junkies" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pSx-3J-Qw0">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Junkies" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wd5-Xu-k9g">
+                                <rect key="frame" x="20" y="141" width="374" height="45.5"/>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="35"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="Et0-3k-nQM">
+                                <rect key="frame" x="50" y="334" width="320" height="225"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="mZA-Gx-1dH">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XZh-d1-5cY">
+                                                <rect key="frame" x="0.0" y="0.0" width="148" height="100"/>
+                                                <color key="backgroundColor" red="0.52443350932064425" green="0.49719659047773829" blue="0.5856995558375635" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="100" id="QhO-fQ-uDY"/>
+                                                    <constraint firstAttribute="width" constant="148" id="hRV-3t-5aV"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="17"/>
+                                                <state key="normal" title="CHIPOTLE">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="chipotlePressed:" destination="8RE-9m-9VV" eventType="touchUpInside" id="HMs-bl-KHF"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y7M-jP-H0j">
+                                                <rect key="frame" x="172" y="0.0" width="148" height="100"/>
+                                                <color key="backgroundColor" red="0.56869471069999999" green="0.5419842601" blue="0.62518471480000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="100" id="U78-p8-GML"/>
+                                                    <constraint firstAttribute="width" constant="148" id="h4v-o3-ErN"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="17"/>
+                                                <state key="normal" title="TACO BELL">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="tacoBellPressed:" destination="8RE-9m-9VV" eventType="touchUpInside" id="E7i-MQ-db7"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="8V6-Ik-dNe">
+                                        <rect key="frame" x="0.0" y="125" width="320" height="100"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="87m-Mq-stm">
+                                                <rect key="frame" x="0.0" y="0.0" width="148" height="100"/>
+                                                <color key="backgroundColor" red="0.56869471069999999" green="0.5419842601" blue="0.62518471480000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="100" id="soh-1c-Gh1"/>
+                                                    <constraint firstAttribute="width" constant="148" id="wbn-TN-Oma"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="17"/>
+                                                <state key="normal" title="STARBUCKS">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="starbucksPressed:" destination="8RE-9m-9VV" eventType="touchUpInside" id="jLp-EC-XdY"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B3f-Pb-89h">
+                                                <rect key="frame" x="172" y="0.0" width="148" height="100"/>
+                                                <color key="backgroundColor" red="0.56869471069999999" green="0.5419842601" blue="0.62518471480000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="100" id="gmh-Xi-1xH"/>
+                                                    <constraint firstAttribute="width" constant="148" id="u8T-nm-B1T"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="17"/>
+                                                <state key="normal" title="MCDONALDS">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="mcdonaldsPressed:" destination="8RE-9m-9VV" eventType="touchUpInside" id="3iV-rm-Nqh"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="secondarySystemGroupedBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Et0-3k-nQM" firstAttribute="centerY" secondItem="zzn-rk-rff" secondAttribute="centerY" id="Edj-rR-pLD"/>
+                            <constraint firstItem="wd5-Xu-k9g" firstAttribute="top" secondItem="zzn-rk-rff" secondAttribute="top" constant="53" id="H9P-1K-sIT"/>
+                            <constraint firstItem="wd5-Xu-k9g" firstAttribute="centerX" secondItem="zzn-rk-rff" secondAttribute="centerX" id="IIW-4w-oLt"/>
+                            <constraint firstItem="Et0-3k-nQM" firstAttribute="centerX" secondItem="zzn-rk-rff" secondAttribute="centerX" id="PZQ-fr-DHm"/>
+                            <constraint firstItem="zzn-rk-rff" firstAttribute="trailing" secondItem="wd5-Xu-k9g" secondAttribute="trailing" constant="20" id="bdJ-De-Rb4"/>
+                            <constraint firstItem="wd5-Xu-k9g" firstAttribute="leading" secondItem="zzn-rk-rff" secondAttribute="leading" constant="20" id="rto-bA-MT4"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="zzn-rk-rff"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="6Wg-iL-diq"/>
+                    <connections>
+                        <segue destination="0Z8-6p-eNc" kind="show" identifier="goToMap" id="YLz-ov-Rk0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Oe-UT-o2Y" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1957.9710144927537" y="75"/>
+        </scene>
+        <!--Map View Controller-->
+        <scene sceneID="LN1-Zf-tAv">
+            <objects>
+                <viewController id="0Z8-6p-eNc" customClass="MapViewController" customModule="Junkies" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mvD-6x-b2g">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Wtz-4n-7rR">
+                                <rect key="frame" x="0.0" y="88" width="414" height="310"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="310" id="5dW-Vm-NVE"/>
+                                </constraints>
+                            </mapView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eu7-Im-G1L">
+                                <rect key="frame" x="20" y="432" width="374" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="wAV-I8-TuU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="21"/>
+                                <color key="textColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Distance" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t9w-m1-st5">
+                                <rect key="frame" x="20" y="500" width="374" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="8CS-me-dUm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="21"/>
+                                <color key="textColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tFx-M5-1EB">
+                                <rect key="frame" x="102" y="807" width="210" height="55"/>
+                                <color key="backgroundColor" red="0.56869471069999999" green="0.5419842601" blue="0.62518471480000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="9vg-0g-o3b"/>
+                                    <constraint firstAttribute="width" constant="210" id="gbF-WA-lnO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="20"/>
+                                <state key="normal" title="OPEN IN MAPS">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="openInMaps:" destination="0Z8-6p-eNc" eventType="touchUpInside" id="2fy-gd-dJY"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="secondarySystemGroupedBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="TUy-n4-98c" firstAttribute="bottom" secondItem="tFx-M5-1EB" secondAttribute="bottom" id="01Y-7t-t0R"/>
+                            <constraint firstItem="t9w-m1-st5" firstAttribute="leading" secondItem="TUy-n4-98c" secondAttribute="leading" constant="20" id="4ue-aq-O8g"/>
+                            <constraint firstItem="Wtz-4n-7rR" firstAttribute="leading" secondItem="TUy-n4-98c" secondAttribute="leading" id="9jw-GD-Pcg"/>
+                            <constraint firstItem="eu7-Im-G1L" firstAttribute="leading" secondItem="TUy-n4-98c" secondAttribute="leading" constant="20" id="GGq-3W-z6M"/>
+                            <constraint firstItem="eu7-Im-G1L" firstAttribute="top" secondItem="Wtz-4n-7rR" secondAttribute="bottom" constant="34" id="N4W-hK-2fn"/>
+                            <constraint firstItem="TUy-n4-98c" firstAttribute="trailing" secondItem="t9w-m1-st5" secondAttribute="trailing" constant="20" id="YDP-dc-rR1"/>
+                            <constraint firstItem="t9w-m1-st5" firstAttribute="top" secondItem="eu7-Im-G1L" secondAttribute="bottom" constant="8" id="ZhD-3s-0UD"/>
+                            <constraint firstItem="Wtz-4n-7rR" firstAttribute="trailing" secondItem="TUy-n4-98c" secondAttribute="trailing" id="bMi-PH-vZH"/>
+                            <constraint firstItem="TUy-n4-98c" firstAttribute="trailing" secondItem="eu7-Im-G1L" secondAttribute="trailing" constant="20" id="kag-gB-bZH"/>
+                            <constraint firstItem="tFx-M5-1EB" firstAttribute="centerX" secondItem="TUy-n4-98c" secondAttribute="centerX" id="t1R-6e-veW"/>
+                            <constraint firstItem="Wtz-4n-7rR" firstAttribute="top" secondItem="TUy-n4-98c" secondAttribute="top" id="wo3-5A-LVx"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="TUy-n4-98c"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="tbt-Zp-8L1"/>
+                    <connections>
+                        <outlet property="addressLabel" destination="eu7-Im-G1L" id="E7l-3f-FA6"/>
+                        <outlet property="distanceLabel" destination="t9w-m1-st5" id="T4L-qZ-4vx"/>
+                        <outlet property="mapView" destination="Wtz-4n-7rR" id="wv8-l5-GeZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cuU-xh-2y3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2760.8695652173915" y="75"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="QZZ-1G-2GT">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="e5w-uF-QwD" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="gON-Zt-EyZ">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="8RE-9m-9VV" kind="relationship" relationship="rootViewController" id="wIg-ES-tya"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kfQ-mK-Clz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="75"/>
+        </scene>
+    </scenes>
+</document>
