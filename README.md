@@ -6,13 +6,11 @@ Based on a chosen restaurant, displays the nearest franchise relative to the use
 
 ## Simulator
 
-<img src="images/vc.png" alt="vc" style="zoom:40%;" />
+<img src="images/vc.png" alt="vc" style="width:100px;" />
 
-<img src="images/mapvc.png" alt="mapvc" style="zoom:40%;" />
+<img src="images/mapvc.png" alt="mapvc" style="width:100px;" />
 
-<img src="images/mapapp.png" alt="mapapp" style="zoom:40%;" />
-
-![VC1](images/vc.png)
+<img src="images/mapapp.png" alt="mapapp" style="width:100px;" />
 
 ## Core Files
 
