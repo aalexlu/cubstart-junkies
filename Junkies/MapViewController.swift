@@ -94,7 +94,7 @@ class MapViewController: UIViewController, CLLocationManagerDelegate, MKMapViewD
     /** Updates the label IBOutlets of the address and distance; based on the newly found closestLocation in findNearest*/
     func updateView() {
         addressLabel.text = closestLocationAddress
-        distanceLabel.text = "\(minDistance) meters"
+        distanceLabel.text = "\(Int(minDistance)) meters"
     }
 
     /** IBAction for the "Open In Maps" button; opens the Apple maps application with the path from the userLocation to the closestLocation */
